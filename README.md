@@ -14,10 +14,14 @@ to clearly mark each problem in order to minimize the chances of grading errors.
 
 You do not need to submit anything for Problems 1a, 2a, 2c, 3a, or 4a.
 
-You are free to use any resources to help you with this assignment, including books or websites. You are also free
-to collaborate with any other student or students in this class. However, you must write and submit your own answers to
-the problems, and merely copying another student's answer will be considered cheating on the part of both students. If
-you choose to collaborate, please list your collaborators at the top of your `hw2-written.pdf` file.
+You are free to use any resources to help you with this assignment, including books, websites, or AI assistants such as
+TerrierGPT (as long as such assistants are fully text-based). You are also free to collaborate with any other student or
+students in this class. However, you must write and submit your own answers to the problems, and merely copying another
+student's answer will be considered cheating on the part of both students. If you choose to collaborate, please list
+your collaborators at the top of your `hw2-written.pdf` file. If you choose to use TerrierGPT or a similar AI assistant
+to help you with this assignment in any way, please include a file called `hw2-chatgpt-logs.txt` with a full transcript
+of all prompts and responses used for this assignment. Your use of AI assistants cannot involve generating images or any
+other content that cannot be included in a `.txt` file.
 
 ## Setup
 
@@ -35,11 +39,17 @@ Please refer to their websites for installation instructions.
 
 ## Submission
 
-For your submission, please upload the following files to [Gradescope](https://www.gradescope.com):
+For your submission, please upload the following files to [Gradescope](https://www.gradescope.com)
+under "[HW 2 Code Problems](https://www.gradescope.com/courses/1231948/assignments/7764395)":
 
 * `tokenizer.py`
 * `model.py`
 * `train_test.py`
+* `hw2-chatgpt-logs.txt` (if you used TerrierGPT or a similar text-based AI assistant)
+
+Please upload the following file to Gradescope
+under "[HW 2 Written Problems](https://www.gradescope.com/courses/1231948/assignments/7764395)":
+
 * `hw2-written.pdf`
 
 Do not change the names of these files, and do not upload any other files to Gradescope. Failure to follow the

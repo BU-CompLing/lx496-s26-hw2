@@ -15,7 +15,7 @@ def evaluate(model: LSTMSentimentClassifier, test_data: Dataset,
     """
     Problem 4b: Complete the implementation of this function. You may
     write code anywhere in the function body. You must remove the raise
-    statement on line 38.
+    statement on line 36.
 
     Evaluate an LSTM sentiment classifier on a testing dataset. In order
     to save memory, the evaluation should occur in mini-batches, such
@@ -43,7 +43,7 @@ def train(model: LSTMSentimentClassifier, train_data: Dataset,
     Problem 4c: Complete the implementation of this function. You may
     write code anywhere in the function body, though comments have been
     provided to guide the placement of your code. You must remove the
-    raise statements on lines 74 and 82.
+    raise statements on lines 73 and 81.
 
     :param model: The model to be trained
     :param train_data: The data to train the model on
