@@ -50,7 +50,7 @@ class Embeddings:
         :param filename: The name of the file containing the embeddings
         :return: An Embeddings object containing the loaded embeddings
         """
-        with open(filename, "r") as f:
+        with open(filename, "r", encoding="utf-8") as f:
             all_lines = [line.strip().split(" ", 1) for line in f]
         words, vecs = zip(*all_lines)
         return cls(words, np.array([np.fromstring(v, sep=" ") for v in vecs]))
